@@ -14,7 +14,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sristi05/openWeatherMapService.git"
+    "url": "https://github.com/Sristi05/openWeatherMapService/"
   },
   "keywords": [
     "openWeatherMap",
