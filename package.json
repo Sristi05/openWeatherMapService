@@ -1,0 +1,27 @@
+{
+  "name": "openweathermap",
+  "version": "1.0.0",
+  "description": "Weather Report",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sristi",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sristi05/openWeatherMapService.git"
+  },
+  "keywords": [
+    "openWeatherMap",
+    "Service"
+  ],
+  "bugs": {
+    "url": "https://github.com/Sristi05/openWeatherMapService/issues"
+  },
+  "homepage": "https://github.com/Sristi05/openWeatherMapService#readme"
+}
