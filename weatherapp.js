@@ -33,13 +33,13 @@ standard_input.on('data', function (data) {
 		startTime.push(new Date());
 		count++;
 	}
-	else if (count===2) {
+	else if (count===5) {
 		let time = 	duration(startTime[i]);
 		// console.log("interval: "+timeInterval);
 		i++;
 		count = 1;
 		//see the time interval and use of API in that hour
-		if (time<35 && i===5) {
+		if (time<3600 && i===5) {
 			i=0;
 			val = 1;
 				
@@ -54,7 +54,7 @@ standard_input.on('data', function (data) {
 	}
 	else {
 		let t = duration(startTime[i]);
-		if (t<35 && val===1) {
+		if (t<3600 && val===1) {
 			console.log('Sorry! Your hourly limit for all 5 API has reached. Please come back later!');
 			process.exit();	
 		}
